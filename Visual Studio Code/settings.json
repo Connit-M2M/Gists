@@ -1,0 +1,39 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.wrappingIndent": "indent",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnType": true,
+  "editor.wrappingColumn": 150,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Hasklig",
+  "editor.fontSize": 12,
+  "editor.renderIndentGuides": true,
+  "editor.mouseWheelZoom": true,
+
+  "javascript.validate.lint.missingSemicolon": "warning",
+  "javascript.validate.lint.semicolonsInsteadOfBlocks": "warning",
+  "javascript.validate.lint.redeclaredVariables": "error",
+  "javascript.validate.lint.unusedFunctions": "warning",
+
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*.map": true,
+    "**/bin": true,
+    "**/log": true,
+    "**/obj": true,
+    "**/Properties": true
+  },
+
+  "blankLine.showMessage": false,
+  "tslint.enable": true,
+  "jscs.enable": false,
+  "jscs.preset": "airbnb",
+  "jscs.disableIfNoConfig": true
+}
